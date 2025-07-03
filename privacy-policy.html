@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserPhone - Privacy Policy</title>
+    <style>
+        /* CSS Embedded for Simplicity (Same as ToS) */
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .highlight {
+            color: #7289da; /* Discord blurple */
+        }
+        .last-updated {
+            color: #777;
+            font-size: 0.9rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        p, ul {
+            margin-bottom: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #7289da;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .thank-you {
+            font-size: 1.1rem;
+            margin-top: 10px;
+            color: #7289da;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy for <span class="highlight">UserPhone</span></h1>
+            <p class="last-updated">Last Updated: <span id="date"></span></p>
+        </header>
+
+        <section>
+            <p>
+                This Privacy Policy explains how <strong>UserPhone</strong> ("the Bot") collects, uses, and protects your data when you use our cross-server voice and chat Discord bot. By using UserPhone, you consent to the practices described in this policy.
+            </p>
+
+            <h2>1. Data We Collect</h2>
+            <p>UserPhone may collect and process the following data:</p>
+            <ul>
+                <li><strong>Server Information:</strong> Server IDs, channel IDs, and role IDs for functionality.</li>
+                <li><strong>User Information:</strong> User IDs, usernames, and discriminators for cross-server communication.</li>
+                <li><strong>Message Content:</strong> Temporary processing of messages for relay between servers (not stored long-term).</li>
+                <li><strong>Voice Data:</strong> Metadata about voice channels (e.g., participant IDs) for voice chat features.</li>
+            </ul>
+
+            <h2>2. How We Use Data</h2>
+            <p>The collected data is used solely for:</p>
+            <ul>
+                <li>Enabling cross-server text and voice communication.</li>
+                <li>Providing moderation tools and server management.</li>
+                <li>Improving bot performance and fixing issues.</li>
+            </ul>
+            <p><strong>We do not sell or share your data with third parties.</strong></p>
+
+            <h2>3. Data Storage & Retention</h2>
+            <ul>
+                <li><strong>Message Content:</strong> Not stored permanently; only processed in real-time for relaying.</li>
+                <li><strong>Server/User IDs:</strong> Stored only as long as necessary for functionality.</li>
+                <li><strong>Voice Data:</strong> No audio recordings are stored; only connection metadata.</li>
+            </ul>
+
+            <h2>4. Data Security</h2>
+            <p>We implement security measures to protect your data, including:</p>
+            <ul>
+                <li>Encrypted data transmission.</li>
+                <li>Restricted database access.</li>
+                <li>Regular security audits.</li>
+            </ul>
+
+            <h2>5. User Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li><strong>Request Data Deletion:</strong> Contact us to remove stored data associated with your server or user ID.</li>
+                <li><strong>Opt Out:</strong> Remove the bot from your server at any time to stop data collection.</li>
+            </ul>
+
+            <h2>6. Changes to This Policy</h2>
+            <p>We may update this Privacy Policy. Continued use of UserPhone constitutes acceptance of changes.</p>
+
+            <h2>7. Contact Us</h2>
+            <p>For privacy-related inquiries, contact us via:</p>
+        </section>
+
+        <footer>
+            <p>By using <strong>UserPhone</strong>, you agree to this Privacy Policy.</p>
+            <p class="thank-you">Thank you for trusting UserPhone! 🔒</p>
+        </footer>
+    </div>
+
+    <script>
+        // Auto-update the date
+        document.getElementById('date').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html>
